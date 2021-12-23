@@ -1,0 +1,9 @@
+1.Clone a specific branch from github: 
+  # clone only the remote primary HEAD (default: origin/master)
+  git clone <url> --single-branch
+
+  # as in:
+  git clone <url> --branch <branch> --single-branch
+ 
+2.Create or switch to a new branch: 
+  #git checkout -b <branch_name>
